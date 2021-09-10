@@ -1,4 +1,4 @@
-# montecarlopricing
+# Monte Carlo Option Pricing in Swift
 Alienating Swift to write a Monte Carlo Simulation Option Pricing application.
 
 # Key Information
