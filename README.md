@@ -26,13 +26,13 @@ We then discount this price back to the current value, and, after enough simulat
 This movement has a mean of 0, the generalized Wiener process also features a drift rate, which has the purpose of modeling an expected increase (or loss) different from 0.
 The formula looks as follows:
 
-&#x394;x = a*&#x394;t + b*&#x3B5;*&#x221A;(&#x394;t)
+## &#x394;x = a*&#x394;t + b*&#x3B5;*&#x221A;(&#x394;t)
 
 where &#x394;t is the size of the discrete subintervals in time, a and b constants, a*&#x394;t the drift rate, and &#x3B5; a random number from standard gaussian distribution.
 
 By, using Ito's Lemma and keeping the volatility of the stock and the drift rate constant we can estimate the price of the derivative with the formula: (See John C. Hull Chapter 21 for proof)
 
-S(T) = S(0) * exp(&#x3BC; - (&#x3C3;^2 * 0.5) *  &#x3C3; * &#x3B5; * &#x221A;(&#x394;t)
+## S(T) = S(0) * exp(&#x3BC; - (&#x3C3;^2 * 0.5) *  &#x3C3; * &#x3B5; * &#x221A;(&#x394;t)
 
 where &#x3BC; is the drift rate (equal to the risk-interest rate of the option) and &#x3C3; the volatility.
 
