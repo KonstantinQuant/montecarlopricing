@@ -1,6 +1,8 @@
 # Monte Carlo Option Pricing in Swift
 Alienating Swift to write a Monte Carlo Simulation Option Pricing application.
 
+### montecarlo.m contains MatLab Code for Monte Carlo Option Pricing based on Geometric Brownian Motion
+
 # Key Information
 
 Author: Konstantin Kuchenmeister
