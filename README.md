@@ -1,8 +1,16 @@
 # Monte Carlo Option Pricing Codes
 
-1. Alienating Swift to write a Monte Carlo Simulation Option Pricing application.
-2. Matlab Monte Carlo Pricing based on geometric Brownian Motion
-3. Python Monte Carlo Pricing application with Confidence Intervals, Antithetical draws (averaging reduces variance), forward contract pricing, puts and calls, built on OOP concepts
+### Python Monte Carlo Pricing Application with:
+1. Confidence Intervals
+2. Antithetical Draws (averaging reduces variance)
+3. Numerical Greeks (Derivatives) by shifts
+4. Simulated forward prices
+5. Simulated Spread Option prices
+6. Correlated GBM
+
+### Alienating Swift to write a Monte Carlo Simulation Option Pricing application.
+
+### Matlab Monte Carlo Pricing based on geometric Brownian Motion
 
 
 
